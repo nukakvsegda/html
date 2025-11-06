@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Пример веб-страницы</title>
+  </head>
+  <body>
+    <h1>Времена года</h1>
+    <h2>Оглавление</h2>
+<a href='#season1'> Зима </a>
+<a href='#season2'> Весна </a>
+<a href='#season3'> Лето </a>
+<a href='#season4'> Осень </a>
+
+<p id="season1"> Зима - это первое время года </p>
+<p id="season2"> Весна - это второе время года </p>
+<p id="season3"> Лето- это третье время года </p>
+<p id="season4"> Осень - это четвертое время года </p>
+
+  </body>
+</html>
