@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title> Мой сайт </title>
+<link rel="stylesheet" href='style.css'>
   </head>
   <body>
     <h1> Мой сайт </h1>
@@ -14,14 +15,16 @@
 <h2> Оглавление </h2>
 <ol>
 <li> <a href='#meet'> Знакомство </a> </li>
-<li> <a href='#connenction'> Связь </a> </li>
+<li> <a href='#connection'> Связь </a> </li>
 <li> <a href='#food'> Предпочтения в еде </a> </li>
 <li> <a href='#favourite'> Моё любимое </a> </li>
-<li> <a href='#favourite'> Картинка с компа </a> </li>
+<li> <a href='#forms'> Опросы и расспросы </a> </li>
+<li> <a href='#picture'> Картинка с компа </a> </li>
 </ol>
 <hr>
 <p id='meet'> Меня зовут Ира, и, пока телефон находится на зарядке и моё обучение в степике приостановлено, я делаю сайт о себе. Здесь я использую всё, что выучила сегодня в html, а именно: ссылки, списки, форматирование текста и картинки. </p>
-     <ul id='connection'> <b> Способы связаться со мной, если есть такое желание: </b> 
+   <p id='connection'> <b> Способы связаться со мной, если есть такое желание: </b> </p>
+ <ul> 
       <li> <a href='https://vk.com/nukakvsegda' target="_blank"> Вконтакте </a> </li>
       <li> <a href='https://github.com/nukakvsegda' target="_blank"> Мой гитхаб </a> </li>
       <li> <a href='mailto:aeternalitersola@gmail.com'> Моя почта </a> </li>
@@ -78,6 +81,59 @@
   <li> порядок и структурность </li>
   <li> песни с историей и драмой (кровосток, аигел, пугачева) </li>
  </ul>
-<img src='image7.jpg' width='19%' alt='картинка'>
+<hr>
+<p id='forms'> <b> Ниже будут опросы и расспросы, которые я научилась делать </b> </p>
+<p> Любимая группа из перечисленных? </p>
+ <select name="bands" size='1'>
+  <option value='1'> аигел </option>
+  <option value='2'> кровосток </option>
+  <option value='3'> уннв </option>
+  <option value='4'> триагрутрика </option>
+  <option value='5'> аквариум </option>
+  <option value='6'> system of a down </option>
+  <option value='7'> тальник </option>
+  <option value='8'> ауцкыон </option>
+<input type='submit'>
+<input type='reset'>
+</select>
+<p> Любимые группы из представленных но теперь флажками </p>
+<form>
+<input type='checkbox' name='aigel' > аигел <br>
+<input type='checkbox' name='krvstk'> кровосток <br>
+<input type='checkbox' name='unnv'> уннв <br>
+<input type='checkbox' name='tgk'> триагрутрика <br>
+<input type='checkbox' name='aqua'> аквариум <br>
+<input type='checkbox' name='soad'> system of a down <br>
+<input type='checkbox' name='talnik'> тальник <br>
+<input type='checkbox' name='auction'> ауцкыон <br>
+<input type='submit'>
+<input type='reset'>
+</form>
+<hr><p> Сколько вам лет? </p>
+<form>
+<input type='radio' name="age" value='menee18' checked='checked'> менее 18 <br>
+<input type='radio' name="age" value='18-35' > 18-35 <br>
+<input type='radio' name="age" value='36-60' > 36-60 <br>
+<input type='radio' name="age" value='bolshe' > больше <br>
+<input type='submit'>
+</form>
+<p> <b> Авторизация </b> </p>
+  <form>
+   Имя пользователя
+   <br>
+   <input type='text' name='login'>
+   <br>
+   Пароль
+   <br>
+   <input type='password' name='password'>
+ <br>  <input type='submit'>
+   </form>
+
+
+
+<hr>
+<p id='picture'> <b> Рандомная картинка с моего компа: </b> </p>
+<img src='image7.jpe' width='50%' alt='картинка'>
   </body>
 </html>
+
